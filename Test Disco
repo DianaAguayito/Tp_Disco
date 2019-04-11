@@ -8,7 +8,7 @@ public class TestDisco {
 
 	@Test
 	public void testQueCalculaPerimetroInterior() {
-		Disco miDisco=new Disco(4,5);
+		Disco miDisco=new Disco(3,5);
 		double valor_obtenido= miDisco.CalcularPerimetroInterior();
 		System.out.println("Perimetro interior= "+valor_obtenido);
 	}
